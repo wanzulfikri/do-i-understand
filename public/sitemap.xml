@@ -48,63 +48,7 @@
   </url>
   
   <url>
-    <loc>/categories/example/</loc>
-    <lastmod>2018-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/markdown/</loc>
-    <lastmod>2018-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2018-08-30-markdown-guide/</loc>
-    <lastmod>2018-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/</loc>
-    <lastmod>2018-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/bullhorn/</loc>
-    <lastmod>2012-04-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2012-04-23-hacker-with-horn/</loc>
-    <lastmod>2012-04-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/blog/</loc>
-    <lastmod>2012-03-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2015-07-23-command-line-awesomeness/</loc>
-    <lastmod>2012-03-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/html/</loc>
-    <lastmod>2012-03-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/code/</loc>
-    <lastmod>2012-01-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/juicy/</loc>
-    <lastmod>2012-01-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2012-01-23-juicy-code/</loc>
-    <lastmod>2012-01-23T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>

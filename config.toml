@@ -10,7 +10,6 @@ footnotereturnlinkcontents = "↩"
 [permalinks]
     # post = "/post/:year/:month/:day/:slug/"
     posts = "/:filename"
-    categories = "/categories/:filename"
 
 [[menu.main]]
     name = "Categories"
