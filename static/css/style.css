@@ -1,7 +1,7 @@
 body {
   max-width: 800px;
   margin: auto;
-  padding: .2em;
+  padding: 0.2em;
   line-height: 1.5em;
 }
 
@@ -15,38 +15,58 @@ output:
 
     */
 
-#TableOfContents, #TOC {
+#TableOfContents,
+#TOC {
   border: 1px solid #eee;
   border-radius: 5px;
 }
 
 /* Header and Footer */
-.menu li { display: inline-block; }
-.article-meta, .menu a {
+.menu li {
+  display: inline-block;
+}
+.article-meta,
+.menu a {
   text-decoration: none;
-  background: #E8DBC5;
+  /* background: #e8dbc5; */
   color: #000;
-  padding: 5px;
+  /* padding: 5px; */
   border-radius: 5px;
-  border-style: dotted;
+  border-style: solid;
   border-width: 1px;
   margin-bottom: 20px;
 }
 
-.terms { font-size: .9em; }
-.menu, .article-meta, footer { text-align: center; }
-.title { font-size: 1.1em; }
-footer a { text-decoration: none; }
+.terms {
+  font-size: 0.9em;
+  margin-top: 1px;
+}
+
+.date {
+  font-size: 0.9em;
+}
+
+.menu,
+.article-meta,
+footer {
+  text-align: center;
+}
+.title {
+  font-size: 1.1em;
+}
+footer a {
+  text-decoration: none;
+}
 
 .pull-left {
-    float: left
+  float: left;
 }
 .pull-right {
-    float: right
+  float: right;
 }
 
 a {
-  color: #613DC1;
+  color: #0594cb;
   text-decoration: none;
 }
 
@@ -56,32 +76,32 @@ a:hover {
 
 /* Adjust background at your leisure! */
 header {
-    position: relative;
-    width: 100%;
-    height: 1.75rem;
-    font-size: 1rem;
-    background: #613DC1;
-    border-bottom: 1px solid #000;
+  position: relative;
+  width: 100%;
+  height: 1.75rem;
+  font-size: 1rem;
+  background: #0a1922;
+  border-bottom: 1px solid #000;
 }
 
 header ul,
 header ol {
-    margin: 0;
-    padding: 0;
-    list-style: none
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 header nav {
-    padding: 0 0.5rem
+  padding: 0 0.5rem;
 }
 
 header a {
-    color: #fff;
-    line-height: 1.75rem;
-    padding: 0 0.5rem
+  color: #fff;
+  line-height: 1.75rem;
+  padding: 0 0.5rem;
 }
 header a:hover,
 header .current a {
-    color: #fff
+  color: #fff;
 }
 
 /* Code Boxes */
@@ -92,11 +112,17 @@ pre {
   padding: 1em;
   overflow-x: auto;
 }
-code { background: #f9f9f9; }
-pre code { background: none; }
+code {
+  background: #f9f9f9;
+}
+pre code {
+  background: none;
+}
 
 /* Images, tables, misc. */
-img, iframe, video {
+img,
+iframe,
+video {
   max-width: 100%;
   height: auto;
 }
@@ -124,9 +150,16 @@ table {
   border-top: 1px solid #666;
   border-bottom: 1px solid #666;
 }
-table thead th { border-bottom: 1px solid #ddd; }
-th, td { padding: 5px; }
-tr:nth-child(even) { background: #eee }
+table thead th {
+  border-bottom: 1px solid #ddd;
+}
+th,
+td {
+  padding: 5px;
+}
+tr:nth-child(even) {
+  background: #eee;
+}
 
 .content-wrapper {
   padding: 0px 12px 0px 12px;

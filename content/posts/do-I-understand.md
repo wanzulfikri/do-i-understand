@@ -2,6 +2,9 @@
 title: "Do I Understand?"
 date: 2020-04-13T07:54:22+08:00
 draft: false
+categories:
+  - Reflection
+  - Non-understanding
 ---
 
 Growing older, I'm beginning to realise that I don't understand some concepts that I thought I understood fairly well. _"I don't understand"_ might be a bit too much. A verb or two are missing : _'I think/feel I don't understand'_.

@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Classic"
+title = "Menagerie"
 theme = "hugo-classic"
 googleAnalytics = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
@@ -24,6 +24,6 @@ footnotereturnlinkcontents = "↩"
     url = "/index.xml"
 
 [params]
-    description = "A simple, minimal blog for those who love text."
-    footer = "Open-Source | [Github](https://github.com/goodroot/hugo-classic) | [Keybase](https://keybase.io/goodroot)"
+    description = "This is the place where I write about things I don't understand, I think I don't understand, I think I will never understand, and I'm certain I'll never understand. And the occasional piece on things I do understand."
+    footer = "A non-alcoholic 🥂 to the torture of not understanding."
     custom_css = ["css/theme-override.css"]

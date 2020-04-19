@@ -147,4 +147,4 @@ which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
 
 #### Images auto center:
 
-![Party](http://emojis.slackmojis.com/emojis/images/1475875185/1223/party-dinosaur.gif?1475875185)
+![Party](https://emojis.slackmojis.com/emojis/images/1475875185/1223/party-dinosaur.gif?1475875185)
