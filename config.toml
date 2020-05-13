@@ -15,15 +15,15 @@ footnotereturnlinkcontents = "↩"
     name = "Categories"
     url = "/categories/"
     weight = 1
-[[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 2
-[[menu.feed]]
-    name = "Subscribe"
-    url = "/index.xml"
+# [[menu.main]]
+#     name = "Tags"
+#     url = "/tags/"
+#     weight = 2
+# [[menu.feed]]
+#     name = "Subscribe"
+#     url = "/index.xml"
 
 [params]
     description = "This is the place where I write about things I don't understand, I think I don't understand, I think I will never understand, and I'm certain I'll never understand. And the occasional piece on things I do understand."
-    footer = "A non-alcoholic 🥂 to the torture of not understanding."
+    footer = "*Fortitudine Vincimus* == [Ernest Shackleton](https://en.wikipedia.org/wiki/Ernest_Shackleton) is rad."
     custom_css = ["css/theme-override.css"]

@@ -13,7 +13,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="This is the place where I write about things I don&#39;t understand, I think I don&#39;t understand, I think I will never understand, and I&#39;m certain I&#39;ll never understand. And the occasional piece on things I do understand.">
-    <title>Reflection | Menagerie</title>
+    <title>Juicy Code | Menagerie</title>
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/fonts.css" />
     <link rel="stylesheet" href="/css/theme-override.css">
@@ -26,7 +26,7 @@
       </li>
        
       <li
-        class="pull-left current"
+        class="pull-left "
       >
         <a href="/categories/">~/categories</a>
       </li>
@@ -50,27 +50,44 @@
   <body>
     <br/>
 
+<div class="article-meta">
+  <h1><span class="title">Juicy Code</span></h1>
+  
+  <h2 class="author">Open Source</h2>
+  
+  <p class="terms">
+    <span class="date"
+      >January 23, 2012
+       ~ 
+      1 min read
+      😄
+      </span>
+    
+  </p>
+</div>
+
 
 <div class="content-wrapper">
-  
-  <h1>Reflection</h1>
-   
+  <main>
+    <p>Check out this JUICY! code:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">with_value_from_database</span>(value)
+  self<span style="color:#f92672">.</span>class<span style="color:#f92672">.</span>from_database(name, value, type)
+<span style="color:#66d9ef">end</span>
 
-  <ul>
-     
-     
-    
-    <li>
-      <span class="date">19/04/2020</span>
-      <a href="/archive/excess-deaths/">Excess Deaths</a>
-    </li>
-    
-    <li>
-      <span class="date">13/04/2020</span>
-      <a href="/archive/do-i-understand/">Do I Understand?</a>
-    </li>
-    
-  </ul>
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">with_cast_value</span>(value)
+  self<span style="color:#f92672">.</span>class<span style="color:#f92672">.</span>with_cast_value(name, value, type)
+<span style="color:#66d9ef">end</span>
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">with_type</span>(type)
+  <span style="color:#66d9ef">if</span> changed_in_place?
+    with_value_from_user(value)<span style="color:#f92672">.</span>with_type(type)
+  <span style="color:#66d9ef">else</span>
+    self<span style="color:#f92672">.</span>class<span style="color:#f92672">.</span>new(name, value_before_type_cast, type, original_attribute)
+  <span style="color:#66d9ef">end</span>
+<span style="color:#66d9ef">end</span>
+</code></pre></div>
+    <a href="/"> >> Home</a>
+  </main>
 </div>
     <footer>
       
